@@ -1,0 +1,21 @@
+ .center {
+    text-align: center;
+    }
+
+#survey-form {
+
+  width:900px;
+  margin:0 auto;
+  }
+
+.row-tab {
+  width:block;
+  }
+
+.label-burger {
+  display:inline-block;
+  }
+
+  .input-burger {
+    display: inline-block;
+  }
