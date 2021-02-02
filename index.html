@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="english"
+<head>
+
+</head>
+
+    <style>
+      body {
+      font-family: sans-serif;
+      padding-left: 25%;
+      padding-right: 25%;
+      }
+
+      Label {
+        font-size: 30px
+        display: inline-block;
+        padding-bottom: 10px
+      }
+
+      input {
+        display:block;
+        width: 100%
+      }
+
+      form {
+        background-color: green;
+        padding: 40px 40px 40px 40px;
+      }
+
+      textarea {
+        display:block;
+        padding-bottom: 10px;
+        width: 100%
+      }
+
+      select {
+        display:block;
+        padding-bottom: 10px;
+        width: 100%
+      }
+
+      .radio-inline {
+      display: inline-block;
+      }
+
+      .checkbox-inline {
+      display: inline-block;  
+      }
+
+    </style>
+<body>
+<h1 id="title"> Satisfaction Survey </h1>
+    <p id="description">This is a survey where yo can tell us about your experience</p>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <form id="survey-form">
+    <label id="name-label">Name:</label>
+    <input type="text" name="Name" id="name"required placeholder="First name"></input><br>
+    <label id="email-label">Email:</label>
+    <input type="email" name="Email" id="email"required placeholder="Best email"></input><br>
+    <label id="number-label">Number:</label>
+    <input type="number" name="name" id="number" min="0" max="10"required placeholder="$"></input><br>
+
+    <label id="African-description-label">African destination:</label>
+    <br>
+   <select id="dropdown">
+    <option value="Cape Town">Cape Town</option>
+    <option value="Marrakesh">Marrakesh</option>
+    <option value="Cairo">Cairo</option>
+    <option value="Mauritius">Mauritius</option>
+  </select><br>
+  <br>
+  <label id="gender-label">Gender:</label>
+  <br>
+  <input type="radio" class="radio-inline" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" class="radio-inline" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" class="radio-inline" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <br>
+  <br>
+  <label id="Transportation-label">Transportation:</label>
+  <br>
+  <input type="checkbox" class="checkbox-inline" id="vehicle1" name="vehicle1" value="plane">
+  <label for="vehicle1"> I'll take plane</label><br>
+  <input type="checkbox" class="checkbox-inline" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" class="checkbox-inline" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br>
+  <br>
+  <label for="w3review">Review your travel:</label><br>
+
+  <textarea id="review" name="Review" rows="4" cols="50">
+  At travels.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+  </textarea><br>
+
+  <button id="submit"</button>
+    <input type="submit"></input>
+  </form>
+
+  </body>
+</html>
